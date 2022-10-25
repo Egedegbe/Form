@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/try.css">
+</head>
+<body>
+
+    <div class="container">
+<form onsubmit="return demo()" action="../echo/index.html">
+<div class="card1">
+    <p>Sign up</p>
+</div>
+
+<div class="push">
+    <span class="text">
+        Username
+    </span>
+    <div>
+        <input type="text" placeholder="Username" id="name">
+    </div>
+
+    <span class="text">
+        Email
+    </span>
+    <div>
+        <input type="email" placeholder="Email" id="email">
+    </div>
+
+    <span class="text">
+        Password
+    </span>
+    <div>
+        <input type="password" placeholder="Password" id="password">
+    </div>
+
+    <span class="text">
+        Retype Password
+    </span>
+    <div>
+        <input type="password" placeholder="Retype password" id="conpass">
+    </div>
+
+
+
+</div>
+<div class="btn">
+    <button>SIGN UP</button>
+</div>
+<div class="error" id="error"></div>
+
+</form>
+    </div>
+
+
+    <script src="js/try.js"></script>
+</body>
+</html>
